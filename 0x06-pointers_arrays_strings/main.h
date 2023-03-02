@@ -42,3 +42,23 @@ char *cap_string(char *);
  * *leet - function that encodes a string into 1337
  */
 char *leet(char *);
+
+/**
+ * *rot13 - function that encodes a string using rot13
+ */
+char *rot13(char *);
+
+/**
+ * print_number - function that prints an integer
+ */
+void print_number(int n);
+
+/**
+ * *infinite_add - function that adds two numbers
+ */
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
+
+/**
+ * print_buffer - function that prints a buffer
+ */
+void print_buffer(char *b, int size);
