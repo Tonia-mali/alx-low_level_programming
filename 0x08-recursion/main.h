@@ -37,3 +37,13 @@ int _sqrt_recursion(int n);
  * is_prime_number - function that returns 1 if the input integer is a prime number
  */
 int is_prime_number(int n);
+
+/**
+ * is_palindrome - function that returns 1 if a string is a palindrome and 0 if not
+ */
+int is_palindrome(char *s);
+
+/**
+ * wildcmp - function that compares two strings and returns 1
+ */
+int wildcmp(char *s1, char *s2);
